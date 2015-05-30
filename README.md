@@ -1,48 +1,7 @@
 ## One light UI for adwaita for Atom
 
 A light UI theme that adjusts to most Syntax themes.
+This theme is based on the [original One light UI](https://github.com/atom/one-light-ui) made by the [Atom team](https://github.com/atom/)
 You find the [Original repository](https://github.com/atom/one-light-ui) of the theme
 ![one-light-ui](http://i.imgur.com/e00tyti.gif)
-
-> The font used in the screenshots is [Fira Mono](https://github.com/mozilla/Fira). Icons by [file-icons](https://atom.io/packages/file-icons).
-
-### Combine with other Syntax themes
-
-There is a matching [Syntax theme](https://atom.io/themes/one-light-syntax), but most other Syntax themes work fine as well.
-
-![one-light-ui + sepia](https://cloud.githubusercontent.com/assets/378023/6980110/fc59aca6-da27-11e4-963c-7ecd8400b2c0.png)
-> One light + [Sepia](https://atom.io/themes/sepia-syntax)
-
-![one-light-ui + chester](https://cloud.githubusercontent.com/assets/378023/6980109/fb13e384-da27-11e4-8324-8d8ee2de5ad5.png)
-> One light + [Chester](https://atom.io/themes/chester-atom-syntax)
-
-### Install
-
-This theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting "One Light" from the __UI Themes__ drop-down menu.
-
-### Settings
-
-In the theme settings you can switch between 3 __Layout Modes__:
-
-1. `Auto` (default) - In Auto mode, the UI and font size will automatically change based on the window size.
-2. `Compact` - The UI stays compact to leave more space for the editor.
-3. `Spacious` - The UI is expanded, giving some breathing room.
-
-As well as change the __Font Size__ to scale the whole UI up or down.
-
-### Customize
-
-It's also possible to resize only certain areas by adding the following to your `styles.less` (Use the DevTools to find the right selectors):
-
-```css
-.theme-one-light-ui {
-  .tab-bar { font-size: 18px; }
-  .tree-view { font-size: 14px; }
-  .status-bar { font-size: 12px; }
-}
-```
-
-### FAQ
-
-__Why do the colors change when I switch Syntax themes.__
-This UI theme uses the same background color as the choosen Syntax theme. In case that Syntax theme has a dark background color, it only uses its hue, but otherwise stays light. This lets you use light-dark combos.
+> One light adwaita + [One light syntax](https://github.com/atom/one-light-syntax)
