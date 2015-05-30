@@ -8,7 +8,7 @@
     "adaptive",
     "ui"
   ],
-  "repository": "https://github.com/atom/one-light-ui.git",
+  "repository": "https://github.com/francescodedomenico/one-light-ui.git",
   "license": "MIT",
   "main": "lib/settings",
   "engines": {
