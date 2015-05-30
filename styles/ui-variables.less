@@ -8,12 +8,10 @@
 
 // Color guards -----------------
 @ui-s-h: hue(@ui-syntax-color);
-.ui-hue() when (@ui-s-h = 0) { @ui-hue: 220; } // Use blue hue when no saturation
-.ui-hue() when (@ui-s-h > 0) { @ui-hue: @ui-s-h; }
-.ui-hue();
+@ui-hue: 0;
+@ui-saturation:   0%; // max saturation
+@ui-lightness:    93%; // min lightness
 
-@ui-saturation:   min( saturation(@ui-syntax-color), 24%); // max saturation
-@ui-lightness:    max(  lightness(@ui-syntax-color), 92%); // min lightness
 
 // Main colors -----------------
 @ui-fg:     hsl(@ui-hue, @ui-saturation, @ui-lightness - 72%);
@@ -136,9 +134,9 @@
 
 
 // Background (Custom) -----------------
-@level-1-color: lighten(@base-background-color, 4%);
+@level-1-color: @base-background-color;
 @level-2-color: @base-background-color;
-@level-3-color: darken(@base-background-color, 8%);
+@level-3-color: @base-background-color;
 
 
 // Base (Custom) -----------------
