@@ -1,8 +1,8 @@
-## One light UI theme
+## One light UI for adwaita for Atom
 
 A light UI theme that adjusts to most Syntax themes.
-
-![one-light-ui](https://cloud.githubusercontent.com/assets/378023/6980108/fb10eec2-da27-11e4-9e52-7f4115044a97.png)
+You find the [Original repository](https://github.com/atom/one-light-ui) of the theme
+![one-light-ui](http://i.imgur.com/e00tyti.gif)
 
 > The font used in the screenshots is [Fira Mono](https://github.com/mozilla/Fira). Icons by [file-icons](https://atom.io/packages/file-icons).
 
