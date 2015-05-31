@@ -6,7 +6,12 @@
   "keywords": [
     "light",
     "adaptive",
-    "ui"
+    "ui",
+    "adwaita",
+    "gnome",
+    "gtk",
+    "gtk3",
+    "linux"
   ],
   "repository": "https://github.com/francescodedomenico/one-light-ui-adwaita.git",
   "license": "MIT",
