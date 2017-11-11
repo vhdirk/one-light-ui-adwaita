@@ -1,8 +1,8 @@
 {
-  "name": "one-light-ui",
+  "name": "rubber-duck-light-ui",
   "theme": "ui",
   "version": "1.10.8",
-  "description": "Atom One light UI theme",
+  "description": "Rubber Duck light UI theme",
   "keywords": [
     "light",
     "adaptive",
